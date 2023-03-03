@@ -162,13 +162,15 @@ Mkfile.old
 dkms.conf
 
 # End of https://www.gitignore.io/api/c
-
+.env
 src/kernel/
 src/venv/
+src/.venv
 model/__pycache__
 environment/__pycache__
 network/__pycache__
 .vscode/
+pid.txt
 
 # traces/
 
